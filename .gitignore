@@ -1,0 +1,18 @@
+# Python
+.venv/
+__pycache__/
+.cursor/
+*.pyc
+
+# macOS
+.DS_Store
+
+# ChromaDB & indexing artifacts
+chroma_db/
+doc_hashes.json
+
+# Confidential docs
+docs/hase_fano_assist_poc/
+
+# Private notes
+backlog.md
