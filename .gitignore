@@ -11,8 +11,9 @@ __pycache__/
 chroma_db/
 doc_hashes.json
 
-# Confidential docs
-docs/hase_fano_assist_poc/
+# Ignore all docs content (user-specific PDFs) but keep the directory via .gitkeep
+docs/*
+!docs/.gitkeep
 
 # Private notes
 backlog.md
